@@ -84,6 +84,34 @@ The `Screenshots` folder contains evidence collected during the investigation, i
 9. Investigated Windows Security Event IDs 4624 and 4625 using Event Viewer.
 10. Documented findings and collected screenshots as evidence.
 
+# Commands Used
+
+## Network
+
+ipconfig
+
+ifconfig
+
+ping
+
+## Nmap
+
+nmap 192.168.55.102
+
+## SMB
+
+smbclient -L //192.168.55.102 -U testuser
+
+smbclient //192.168.55.102/soc-lab -U testuser
+
+## Windows
+
+net user
+
+net user testuser
+
+net share
+
 ## 🔍 Investigation Findings
 
 During the investigation, Windows Security logs recorded both successful and failed SMB authentication attempts.
