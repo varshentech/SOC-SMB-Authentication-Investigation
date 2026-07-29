@@ -24,7 +24,7 @@ This project demonstrates fundamental SOC analyst skills including Windows admin
 
 Host Machine (Windows)
         │
-        ▼
+        ▼  
 Oracle VirtualBox
         │
  ┌──────────────┴──────────────┐
