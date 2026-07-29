@@ -22,9 +22,10 @@ This project demonstrates fundamental SOC analyst skills including Windows admin
 
 ## 🏗️ Lab Architecture
 
+```text
 Host Machine (Windows)
         │
-        ▼  
+        ▼
 Oracle VirtualBox
         │
  ┌──────────────┴──────────────┐
@@ -35,13 +36,14 @@ Kali Linux               Windows 10
         │
         │ SMB Authentication
         ▼
- Windows Shared Folder (SOC-Lab)
+Windows Shared Folder (SOC-Lab)
         │
         ▼
- Windows Security Logs
+Windows Security Logs
         │
  ├── Event ID 4624 (Successful Logon)
  └── Event ID 4625 (Failed Logon)
+```
 
  
  ## 📸 Screenshots
