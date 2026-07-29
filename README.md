@@ -43,9 +43,7 @@ Kali Linux               Windows 10
  ├── Event ID 4624 (Successful Logon)
  └── Event ID 4625 (Failed Logon)
 
- <img width="960" height="540" alt="virtualbox lab setup" src="https://github.com/user-attachments/assets/4904a224-ea9e-49cc-90ff-0f4207238c3c" />
-
-
+ 
  ## 📸 Screenshots
 
 The `Screenshots` folder contains evidence collected during the investigation, including:
