@@ -77,7 +77,11 @@ Windows Security Logs
 
 ipconfig
 
+<img width="721" height="362" alt="Screenshot 2026-07-30 094841" src="https://github.com/user-attachments/assets/893c979c-e032-4597-94fa-51576b4077e6" />
+
+
 ifconfig
+
 
 <img width="628" height="308" alt="ip of kali" src="https://github.com/user-attachments/assets/cdb74493-5f5e-47d1-b2ec-8f0922c4251c" />
 
@@ -117,6 +121,9 @@ net user
 <img width="486" height="133" alt="net user" src="https://github.com/user-attachments/assets/cb97c213-91ad-455a-b1db-d6c8a575f34c" />
 
 net share
+
+<img width="719" height="353" alt="Screenshot 2026-07-30 095350" src="https://github.com/user-attachments/assets/670fa0a2-0ee7-4349-ad4c-018f6a330a7c" />
+
 
 ## 🔍 Investigation Findings
 
