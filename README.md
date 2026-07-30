@@ -133,7 +133,7 @@ During the investigation, Windows Security logs recorded both successful and fai
 
 - Username: testuser
 - Authentication Package: NTLM
-- Source IP: Kali Linux
+- Source IP: 192.168.55.101
 - Result: Failed authentication
 
     <img width="463" height="51" alt="logs captured" src="https://github.com/user-attachments/assets/cef33286-79aa-4b9b-8284-983b15eecc90" />
