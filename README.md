@@ -1,4 +1,4 @@
-# SOC SMB Authentication Investigation
+<img width="389" height="77" alt="smb connection" src="https://github.com/user-attachments/assets/23f261f4-e742-43e1-9806-be7a28c9e6c6" /># SOC SMB Authentication Investigation
 
 ## 📌 Project Overview
 
@@ -44,22 +44,8 @@ Windows Security Logs
  ├── Event ID 4624 (Successful Logon)
  └── Event ID 4625 (Failed Logon)
 ```
+<img width="960" height="540" alt="virtualbox lab setup" src="https://github.com/user-attachments/assets/0e38702a-f735-4baf-b456-45fbf6508b17" />
 
- 
- ## 📸 Screenshots
-
-The `Screenshots` folder contains evidence collected during the investigation, including:
-
-- VirtualBox Lab Setup
-- Windows IP Configuration
-- Kali Linux IP Configuration
-- Ping Connectivity Test
-- Nmap Scan Results
-- SMB Authentication
-- Event ID 4624 (Successful Logon)
-- Event ID 4625 (Failed Logon)
-- Local User Configuration
-- Shared Folder Configuration
 
 ## 🛠️ Tools Used
 
@@ -90,16 +76,26 @@ The `Screenshots` folder contains evidence collected during the investigation, i
 # Commands Used
 
 ## Network
-
+```bash
 ipconfig
 
 ifconfig
 
+<img width="628" height="308" alt="ip of kali" src="https://github.com/user-attachments/assets/cdb74493-5f5e-47d1-b2ec-8f0922c4251c" />
+
+
 ping
+
+<img width="510" height="358" alt="ping cmd" src="https://github.com/user-attachments/assets/5b59d94a-e1d2-4552-99da-d00fa9a58999" />
+
 
 ## Nmap
 
 nmap 192.168.55.102
+
+<img width="497" height="236" alt="nmap scan" src="https://github.com/user-attachments/assets/3366b7c6-68b6-44a0-ad43-3eef94c42b69" />
+```
+
 
 ## SMB
 
@@ -107,11 +103,20 @@ smbclient -L //192.168.55.102 -U testuser
 
 smbclient //192.168.55.102/soc-lab -U testuser
 
+<img width="389" height="77" alt="smb connection" src="https://github.com/user-attachments/assets/410f4b95-72ef-43b6-b298-24a42348164c" />
+
+<img width="389" height="90" alt="smb connection success" src="https://github.com/user-attachments/assets/f3466de8-7117-4447-a39f-6e2160278c58" />
+
+
 ## Windows
 
-net user
+net user testuser password@123 /add
 
-net user testuser
+<img width="355" height="24" alt="testuser creation" src="https://github.com/user-attachments/assets/9795b077-2509-4df6-9fc6-783b4f0abae8" />
+
+net user 
+
+<img width="486" height="133" alt="net user" src="https://github.com/user-attachments/assets/cb97c213-91ad-455a-b1db-d6c8a575f34c" />
 
 net share
 
@@ -126,11 +131,22 @@ During the investigation, Windows Security logs recorded both successful and fai
 - Source IP: Kali Linux
 - Result: Failed authentication
 
+<img width="463" height="51" alt="logs captured" src="https://github.com/user-attachments/assets/cef33286-79aa-4b9b-8284-983b15eecc90" />
+
+<img width="459" height="332" alt="id 4625 testuser" src="https://github.com/user-attachments/assets/d39329db-8d90-48a6-8909-d566ad468571" />
+
+
+
 ### Event ID 4624 – Successful Logon
 
 - Username: testuser
 - Authentication Package: NTLM
 - Result: Successful authentication
+
+<img width="463" height="51" alt="logs captured" src="https://github.com/user-attachments/assets/cef33286-79aa-4b9b-8284-983b15eecc90" />
+
+<img width="472" height="330" alt="id 4624 testuser" src="https://github.com/user-attachments/assets/effbc40f-40af-4e42-9181-6c76576983c1" />
+
 
 ## 💡 Skills Demonstrated
 
