@@ -136,7 +136,8 @@ During the investigation, Windows Security logs recorded both successful and fai
 - Source IP: Kali Linux
 - Result: Failed authentication
 
-<img width="463" height="51" alt="logs captured" src="https://github.com/user-attachments/assets/cef33286-79aa-4b9b-8284-983b15eecc90" />
+    <img width="463" height="51" alt="logs captured" src="https://github.com/user-attachments/assets/cef33286-79aa-4b9b-8284-983b15eecc90" />
+    
 
 <img width="459" height="332" alt="id 4625 testuser" src="https://github.com/user-attachments/assets/d39329db-8d90-48a6-8909-d566ad468571" />
 
@@ -148,7 +149,8 @@ During the investigation, Windows Security logs recorded both successful and fai
 - Authentication Package: NTLM
 - Result: Successful authentication
 
-<img width="463" height="51" alt="logs captured" src="https://github.com/user-attachments/assets/cef33286-79aa-4b9b-8284-983b15eecc90" />
+    <img width="463" height="51" alt="logs captured" src="https://github.com/user-attachments/assets/cef33286-79aa-4b9b-8284-983b15eecc90" />
+    
 
 <img width="472" height="330" alt="id 4624 testuser" src="https://github.com/user-attachments/assets/effbc40f-40af-4e42-9181-6c76576983c1" />
 
