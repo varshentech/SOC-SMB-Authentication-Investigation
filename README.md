@@ -1,5 +1,3 @@
-<img width="389" height="77" alt="smb connection" src="https://github.com/user-attachments/assets/23f261f4-e742-43e1-9806-be7a28c9e6c6" /># SOC SMB Authentication Investigation
-
 ## 📌 Project Overview
 
 This project demonstrates a Security Operations Center (SOC) authentication investigation by creating a small Windows and Kali Linux lab using Oracle VirtualBox.
@@ -76,7 +74,7 @@ Windows Security Logs
 # Commands Used
 
 ## Network
-```bash
+
 ipconfig
 
 ifconfig
@@ -94,7 +92,7 @@ ping
 nmap 192.168.55.102
 
 <img width="497" height="236" alt="nmap scan" src="https://github.com/user-attachments/assets/3366b7c6-68b6-44a0-ad43-3eef94c42b69" />
-```
+
 
 
 ## SMB
